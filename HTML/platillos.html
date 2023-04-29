@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>platillos</title>
+</head>
+<body>
+    <header>
+        <h1>Los Platillos Más Deliciosos</h1>
+    </header>
+    <nav>
+           <ul>
+               <li>
+                       <a href="./index.html">principal</a>
+                   </li>
+                   <li>
+                       <a href="./platillos.html">platillos</a>
+                   </li>
+                   <li>
+                       <a href="#">ubicacion</a>
+                   </li>
+           </ul>
+       </nav>
+</body>
+<section>
+    <div>
+        <p>
+            <!-- esta etiqueta muestra en negrito un mensaje importante-->
+            <strong>conoce nuestro mejores platillos</strong>
+        </p>
+          <!--<iframe> en esta se puede adjuntar videos, imagenes, pdf, documentos, cogigo y más o mapa de google-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vRu7yWotnws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div>
+        <!-- propiedades de table
+        border: muestra el borde de la tabla
+        cellpadding: Es el espacio que tiene el contenido con las celdas
+        cellspacing: Es la forma como queremos que se vea el border (si demasiado plano o demasiado grueso)
+    -->
+        <table border="1" cellpading="5" cellspacing="0">
+        <!-- encabezado-->
+        <thead>
+            <!--<th> para titulos-->
+                <th>Platillos</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+        </thead>
+        <!--cuerpo-->
+        <tbody>
+            <!-- <tr> asigmacion de filas-->
+                <tr>
+                    <!--<td>: asigancion de columnas-->
+                        <td>Pollo en crema</td>
+                        <td>Es una pechuga a la plancha bañada en crema de hongos</td>
+                        <td>Q25.00</td>
+                </tr>
+                <tr>
+                    <!--<td>: asigancion de columnas-->
+                        <td>Carne Asada</td>
+                        <td>Es un combo que lleva chirmol, ensalada de papas, aderezos</td>
+                        <td>Q35.00</td>
+                </tr>
+                <tr>
+                    <!--<td>: asigancion de columnas-->
+                        <td>lasagña</td>
+                        <td>Lasagña de pollo, carne o mixto</td>
+                        <td>Q30.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Bebidas</h3>
+        <table border="1" cellpading="5" cellspacing="0">
+            <thead>
+                <th>bebida</th>
+                <th>marca</th>
+                <th>precio</th>
+            </thead>
+            <tbody>
+                <tr>
+                        <td>Jugo de Naranja</td>
+                        <td>La Granja</td>
+                        <td>Q8.00</td>
+               </tr>
+               <tr>
+                 <td>Licuado de Guineo</td>
+                <td>Natural</td>
+                <td rowspan="3">Q7.00</td>
+            </tr>
+              <tr>
+            <td>Limonada</td>
+             <td>Natura</td>
+            </tr>
+            <tr>
+          <td>Soda</td>
+         <td>Cocacola</td>
+        </tr>
+            </tbody>
+            <!--PIE DE PAGINA <TFOOT>-->
+                <tfoot>
+                    <tr>
+                        <td colspan="3">El Sazon</td>
+                    </tr>
+                </tfoot>
+        </table>
+    </div>
+</section>
+</html>

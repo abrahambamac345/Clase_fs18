@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!-- aceptamos todo tipo de caracter -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibñe con cualquier navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- sera compatible con cualquier dispositivo-->
+    <title>El sazon</title></head>
+<body>
+    <!--encabezado-->
+<header>
+    <!-- asignar un titulo => h1 al h6--> 
+<h1>Restaurante el sazon <h1> 
+</header>
+<nav>
+ <!-- listas ordenadas <ol> y listas desordenadas <ul>-->
+    <ul>
+        <!-- elementos de la lista <li> 
+            PAGINA principal, platillos, ubicacion
+        -->
+        <li>
+            <!--hipervinculos <a>: redirecciona a un enlace o archivo que mandamos-->
+                <!-- dentro de la etiqueta  <a> exite la propiedad href
+                    href = es la ruta donde vamos a redireccionar-->
+                <a href="./index.html">principal</a>
+            </li>
+            <li>
+                <a href="./platillos.html">platillos</a> <!-- el ./ es para que nos dirija a la ubiacion que queremos-->
+            </li>
+            <li>
+                <a href="#">ubicacion</a>
+            </li>
+    </ul>
+</nav>
+<!-- contenido principal <main> section div article -->
+    <main>
+        <section>
+            <!-- <img> sirve para colocar una imagen
+                la etiqueta img no es una etiqueta de cierre pero se puede poner el / al final
+            src= ruta de donde esta ubicada la imagen
+            alt = nombre o titulo de la imagen
+            ./= hace referencia a la raiz de la carpeta donde estamos trabajando-->
+            <img src="./restaurant.jpg" alt="restaurante el sazon"/>
+        </section>
+            <section>
+                <!-- <p>: etiqueta para colocar parrafos-->
+                    <p> 
+                        <!-- lorem solo es para ver texto, no significa nada y es predeterminado-->
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed similique esse hic fugit ratione a, natus minus eaque molestias unde. Aspernatur, culpa esse quas sed molestias neque officiis iste perspiciatis?
+                    </p>
+            </section>
+            <!-- contenido no tan relevante <aside> para algo no tan relevante-->
+                <aside>
+                    <h4>¡Dale Clik Aquií!</h4>
+                    <!-- <button>: es la etiqueta para colocar botones-->
+                        <button>promociones</button>
+                    </aside>
+    </main>
+    <!-- apartado del pie de pagina se usa etiqueta <footer> -->
+    <footer>
+        <h3>2023 Abraham Bámaca</h3>
+    </footer>
+</body>
+</html>
