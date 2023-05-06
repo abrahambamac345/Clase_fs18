@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ubicación</title>
+</head>
+<body>
+     <h1>Contacto</h1>
+     <p>Por favor completa el siguiente formulario y nos pondremos en contacto con tigo a la brevedad.</p>
+     <form action="#" method="post">
+        <!--Es el apartado donde afinar un tipo de popriedad y valor que el usuario quiera usar  -->
+        <label for="nombre">Nombre:</label> <!-- for= referencia al nombre que le quiero dar-->
+        <!-- Etiqueta para poder obtener los datos del label-->
+         <!-- id sirve para identificar el nombre de nuestro dato que va entrar del label al input-->
+         <input type="text" id="nombre" name="nombre" required><br><br>
+         <label for="email:">Email:</label>
+         <input type="email" id="email" name="email" required><br><br>
+         <label for="telefono:">Telefono:</label>
+         <input type="tel" id="telefono" name="telefono" required><br><br>
+         
+         <label for="mensaje:">Mensaje:</label>
+          <!-- Es para otra etiqueta de entrada-->
+         <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+        
+          <input type="submit" value="Enviar Ahorra"><!-- Es un botton que permite enviar algo-->
+     </form>
+     
+     <br><br><hr>
+     <!--Mapa de Gooogle-->
+     <h2>Encuentranos Ubicados en:</h2>
+     <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15442.305321017166!2d-90.53523675!3d14.623194400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a2278a6be77f%3A0x9db30f17b4f026f!2sRestaurante%20y%20Cevicher%C3%ADa%20Delicias%20Del%20Marr!5e0!3m2!1ses-419!2sgt!4v1683159600411!5m2!1ses-419!2sgt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+
+</body>
+</html>
